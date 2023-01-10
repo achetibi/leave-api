@@ -1,0 +1,25 @@
+{
+    "name": "achetibi/leave-api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helpers/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Abderrahim CHETIBI",
+            "email": "chetibi.abderrahim@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-mysqli": "*",
+        "vlucas/phpdotenv": "~v5.3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
